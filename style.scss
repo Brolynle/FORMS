@@ -1,0 +1,17 @@
+$bg-color:rgba(90, 90, 90, 0.322);
+$text-color: rgb(0, 0, 0);
+$form-width: 250px;
+$form-height: 100vh;
+
+
+.allbars {
+    background-color: $bg-color;
+    color: $text-color;
+
+    .searchbar, .username, .password {
+        width: $form-width;
+        height: $form-height;
+        background-color: $bg-color;
+    }
+
+}
